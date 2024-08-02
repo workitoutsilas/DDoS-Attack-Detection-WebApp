@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../static/Bootstrap/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="../static/Bootstrap/fontawesomeall.min.css" /> -->
+    <link rel="stylesheet" href="../static/project.css" />
+    <link rel="icon" href="../static/Images/icon.png" />
+    <title>DDoS Attack Detection - Machine Learning | IoT</title>
+  </head>
+  <body>
+    <!--Cursor animation-->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+    <header>
+      <div
+        class="nav-container container-fluid fixed-top"
+        style="font-weight: bold"
+      >
+        <!--Nav bar-->
+        <nav class="container navbar navbar-expand-lg bg-body-transparent">
+          <div class="container-fluid">
+            <!--Text on the left of the navbar-->
+            <a class="navbar-brand ms-3 main-brand" href="#"
+              >ML-based DDoS Attack Detection</a
+            >
+            <!--Toggle button on small screen sizes-->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Navbar links-->
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item me-2">
+                  <a class="nav-link ms-4" href="#section_two">Upload File</a>
+                </li>
+                <li class="nav-item ms-4">
+                  <a class="nav-link" href="#section_three"
+                    >Access to Source Code</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!--First Section-->
+      <section id="section_one" class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-12">
+                  <h1 id="typewriter" class="display-5 line-height p-0">
+                    Using Machine Learning To Revolutionize the Detection of
+                    DDoS Attacks in IoT Environments.
+                  </h1>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-md-12">
+                  <!--How it works-->
+                  <div class="using-flex">
+                    <div class="flx-1-2">
+                      <div class="clear my-2 p-2">
+                        <p class="m-0 p-1 step">
+                          <i class="fa-solid fa-chevron-right ps-2 me-3"></i
+                          >Upload Traffic File
+                        </p>
+                        <p class="m-0 p-1 step">
+                          <i class="fa-solid fa-chevron-right ps-2 me-3"></i
+                          >Submit For Processing
+                        </p>
+                        <p class="m-0 p-1 step">
+                          <i class="fa-solid fa-chevron-right ps-2 me-3"></i
+                          >Display Results
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="flx-1 d-flex align-items-center justify-content-center"
+                    >
+                      <h5 class="text-center m-0 p-2">How it works</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="second-item">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <!--Image Container-->
+                      <div
+                        class="img-container d-flex align-items-center justify-content-center"
+                      >
+                        <img
+                          class="img-fluid"
+                          src="../static/Images/memory-storage-animate (1).svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-7 last">
+                      <!--Features of Traffic file - Container-->
+                      <div
+                        class="last-con d-flex align-items-center justify-content-center"
+                      >
+                        <div class="container features-1">
+                          <div
+                            class="features d-flex justify-content-center align-items-center"
+                          >
+                            <p
+                              class="p-1 m-0"
+                              style="color: whitesmoke; font-size: 1.2em"
+                            >
+                              Features of Traffic File
+                            </p>
+                          </div>
+                          <div class="lists">
+                            <div class="container-fluid">
+                              <!--List of features-->
+                              <div
+                                class="actual-lists d-flex justify-content-center align-items-center p-2"
+                              >
+                                <div class="row">
+                                  <div class="col-6">
+                                    <p class="m-0 p-0">IAT</p>
+                                    <p class="m-0 p-0">ack_flag_number</p>
+                                    <p class="m-0 p-0">HTTPS</p>
+                                    <p class="m-0 p-0">Number</p>
+                                    <p class="m-0 p-0">Duration</p>
+                                    <p class="m-0 p-0">rst_count</p>
+                                    <p class="m-0 p-0">syn_count_number</p>
+                                    <p class="m-0 p-0">psh_count_number</p>
+                                    <p class="m-0 p-0">TCP</p>
+                                    <p class="m-0 p-0">urg_count</p>
+                                    <p class="m-0 p-0">Protocol Type</p>
+                                    <p class="m-0 p-0">flow_duration</p>
+                                    <p class="m-0 p-0">ICMP</p>
+                                  </div>
+                                  <div class="col-6">
+                                    <p class="m-0 ps-3">Tot Sum</p>
+                                    <p class="m-0 ps-3">Header_Length</p>
+                                    <p class="m-0 ps-3">Tot Size</p>
+                                    <p class="m-0 ps-3">syn_count</p>
+                                    <p class="m-0 ps-3">UDP</p>
+                                    <p class="m-0 ps-3">HTTP</p>
+                                    <p class="m-0 ps-3">ack_count</p>
+                                    <p class="m-0 ps-3">fin_count</p>
+                                    <p class="m-0 ps-3">Rate</p>
+                                    <p class="m-0 ps-3">Srate</p>
+                                    <p class="m-0 ps-3">rst_flag_number</p>
+                                    <p class="m-0 ps-3">DNS</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main class="container-fluid p-0 m-0">
+      <!--Section Two-->
+      <section id="section_two" class="container-fluid">
+        <div
+          class="main-title d-flex align-items-center justify-content-center flex-column"
+        >
+          <div class="intro d-flex align-items-center justify-content-center">
+            <p class="m-0 p-1" style="color: #013e40">
+              Upload Traffic File For Predictions
+            </p>
+          </div>
+          <!--Main form-->
+          <div class="outro container">
+            <form
+              method="POST"
+              enctype="multipart/form-data"
+              id="uploadForm"
+              onsubmit="submitData(event)"
+            >
+              <div class="row">
+                <div class="col-md-6 new">
+                  <!--File input container-->
+                  <div
+                    class="upload d-flex align-items-center justify-content-center flex-column"
+                  >
+                    <label
+                      for="input-file"
+                      class="w-100 px-3 py-2 second-option d-flex align-items-center justify-content-center flex-column"
+                      style="border: 2px dashed whitesmoke"
+                      disabled
+                    >
+                      <p class="p-text m-4 text-center">
+                        Click anywhere to upload traffic file
+                      </p>
+                      <i class="upload-icon fa-solid fa-file-arrow-up"></i>
+                      <p
+                        class="m-4 text-center"
+                        style="
+                          color: rgba(245, 245, 245, 0.534);
+                          font-size: 0.94em;
+                        "
+                      >
+                        file extension - .csv &<br />
+                        max. file size - 3MB
+                      </p>
+                    </label>
+                    <input
+                      type="file"
+                      accept=".csv"
+                      class="form-input"
+                      id="input-file"
+                      name="file_upload"
+                      onchange="validateFileSize(this)"
+                      hidden
+                    />
+                  </div>
+                  <!--Container to show uploaded file-->
+                  <div id="upload-container">
+                    <p class="for-upload m-0 ps-2" id="filename"></p>
+                    <button
+                      type="button"
+                      class="p-1 m-1"
+                      id="discard-file-butn"
+                      style="color: #013e40; outline: none; border: none"
+                    >
+                      Discard
+                    </button>
+                  </div>
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="myModal"
+                    tabindex="-1"
+                    aria-labelledby="exampleModalLabel"
+                    aria-hidden="true"
+                  >
+                    <div class="modal-dialog modal-dialog-centered">
+                      <div
+                        class="modal-content"
+                        style="background-color: #013e40; color: whitesmoke"
+                      >
+                        <div class="modal-header">
+                          <p
+                            class="modal-title"
+                            id="exampleModalLabel"
+                            style="color: whitesmoke; background-color: #013e40"
+                          >
+                            File Size Limit Exceeded
+                          </p>
+                          <button
+                            type="button"
+                            class="btn-close btn-custom"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                        <div
+                          class="modal-footer d-flex align-items-center justify-content-center"
+                          style="
+                            height: 155px;
+                            width: 100%;
+                            background-color: whitesmoke;
+                          "
+                        >
+                          <p
+                            class="text-center"
+                            style="color: #013e40; font-size: 1em"
+                          >
+                            File size exceeds the 2 MB limit. <br />Please
+                            select a smaller file.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-5 news">
+                  <!--File Submission Container-->
+                  <div
+                    class="submit d-flex align-items-center justify-content-around flex-column"
+                  >
+                    <div class="mt-3">
+                      <button disabled type="submit" id="subButn">
+                        Submit
+                      </button>
+                    </div>
+                    <!--Loader-->
+                    <div
+                      class="d-flex align-items-center justify-content-center flex-column"
+                    >
+                      <div id="iconContainer" style="display: none">
+                        <div
+                          id="spinnerContainer"
+                          class="spinner-border hidden"
+                          role="status"
+                        >
+                          <span class="sr-only">Loading...</span>
+                        </div>
+                        <svg
+                          id="checkmark"
+                          class="checkmark hidden"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 52 52"
+                        >
+                          <circle
+                            class="checkmark__circle"
+                            cx="26"
+                            cy="26"
+                            r="25"
+                            fill="#7ac142"
+                          />
+                          <path
+                            class="checkmark__check"
+                            fill="none"
+                            d="M14.1 27.2l7.1 7.2 16.7-16.8"
+                          />
+                        </svg>
+                      </div>
+                      <p class="pro-text">
+                        <i
+                          class="fa-solid fa-hourglass-start fa-2x"
+                          style="color: rgba(245, 245, 245, 0.689)"
+                        ></i>
+                        <span
+                          class="p-0 mt-2 text-center"
+                          style="
+                            color: rgba(245, 245, 245, 0.689);
+                            font-size: 1em;
+                          "
+                          >awaiting <br />your submission</span
+                        >
+                      </p>
+                    </div>
+                    <div class="mb-3" style="height: auto">
+                      <button
+                        disabled
+                        type="button"
+                        id="generateChart"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal2"
+                      >
+                        Display Results
+                      </button>
+
+                      <!--Modal for Summary-->
+                      <div
+                        class="modal fade"
+                        id="exampleModal2"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                      >
+                        <div
+                          class="modal-dialog modal-dialog-centered modal-fullscreen"
+                        >
+                          <div class="modal-content">
+                            <div
+                              class="modal-header container-fluid"
+                              style="background-color: #013e40"
+                            >
+                              <h1
+                                class="modal-title fs-5"
+                                id="exampleModalLabel"
+                              >
+                                Model Predictions
+                              </h1>
+                              <button
+                                type="button"
+                                class="btn-close btn-custom"
+                                data-bs-dismiss="modal"
+                                aria-label="Close"
+                              ></button>
+                            </div>
+                            <div
+                              class="modal-body container"
+                              style="border-bottom: 2px solid #013e409c"
+                            >
+                              <div class="main-child">
+                                <div class="row">
+                                  <div
+                                    class="col-12"
+                                    style="
+                                      border-bottom: 2px solid #013e409c;
+                                      margin-top: 10px;
+                                    "
+                                  >
+                                    <h3
+                                      class="text-center m-0 p-0 fw-bold"
+                                      style="color: #013e40"
+                                    >
+                                      STATISTIC SUMMARY ON MODEL PREDICTIONS
+                                    </h3>
+                                  </div>
+                                  <div class="col-12" style="margin-top: 20px">
+                                    <div class="row">
+                                      <div class="col-md-5">
+                                        <div class="firstThis">
+                                          <div id="chartContainer">
+                                            <canvas id="myChart"></canvas>
+                                          </div>
+
+                                          <div
+                                            id="labelContainer"
+                                            class="label-container container"
+                                          ></div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-7">
+                                        <div
+                                          class="secondThis d-flex align-items-start justify-content-between flex-column"
+                                        >
+                                          <h4
+                                            class="fw-bold fs-5"
+                                            style="color: #013e40"
+                                          >
+                                            SIDE NOTE : AVERAGE PREDICTION
+                                            PROBABILITY
+                                          </h4>
+                                          <p
+                                            class="fw-bold fs-6"
+                                            style="color: #013e40"
+                                          >
+                                            The chart shows a statistics on the
+                                            average prediction probabilities of
+                                            our model.
+                                          </p>
+                                          <p style="color: #013e40">
+                                            To account for the possibility of
+                                            misclassification, prediction
+                                            probabilities are used, allowing
+                                            users to see the model's level of
+                                            certainty. For visualization
+                                            purposes, the average prediction
+                                            probabilities of both classes
+                                            (malicious and normal) are computed
+                                            for the uploaded traffic file.
+                                          </p>
+                                          <p style="color: #013e40">
+                                            A prediction of 0 indicates that the
+                                            traffic is likely malicious, while a
+                                            prediction of 1 suggests that the
+                                            traffic is most likely normal. To
+                                            visualize the technical results of
+                                            the predictions, click on the "See
+                                            Details" button.
+                                          </p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-12">
+                                    <button
+                                      type="button"
+                                      class="btn btn-secondary p-2"
+                                      onclick="Results()"
+                                    >
+                                      See Details
+                                    </button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer container mt-2">
+                              <button
+                                type="button"
+                                class="btn btn-secondary"
+                                data-bs-dismiss="modal"
+                              >
+                                Close
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="container-fluid p-0 m-0">
+      <!--Last section-->
+      <section id="section_three" class="container">
+        <!--Source code and reference to images used-->
+        <div class="row">
+          <!--Source code-->
+          <div class="col-sm-6">
+            <div
+              class="footer d-flex align-items-center justify-content-center"
+              style="height: 75px"
+            >
+              <p class="m-0 p-0">
+                Source Code | &nbsp
+                <a
+                  class="footer-link"
+                  href="https://github.com/workitoutsilas/DDoS-Biggest-Backup_Processing/"
+                  target="_blank"
+                  >Github -</a
+                >
+              </p>
+              <p class="mt-3">
+                &nbsp<a
+                  class="footer-link"
+                  href="https://github.com/workitoutsilas/DDoS-Biggest-Backup_Processing/"
+                  target="_blank"
+                  ><i class="fa-brands fa-github fa-2x"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+          <!--Courtesy to authors of images-->
+          <div class="col-sm-6">
+            <div
+              class="d-flex align-items-center justify-content-center flex-column"
+              style="height: 75px"
+            >
+              <p class="m-0 p-0" style="font-size: 0.9em">
+                <a
+                  href="https://www.freepik.com/free-vector/gradient-gray-futuristic-digital-bokeh-background_16350960.htm#fromView=image_search&page=1&position=4&uuid=b8836e96-b28a-463b-a7c2-406c4be8e203"
+                  class="footer-link-2"
+                  target="_blank"
+                  >Background Image Reference</a
+                >
+              </p>
+              <p class="m-0 p-0" style="font-size: 0.9em">
+                <a
+                  href="https://www.freepik.com/free-vector/memory-storage-concept-illustration_9712734.htm#fromView=image_search&page=1&position=0&uuid=2f9ad7fb-88ad-4150-bd72-3768c7d54bcf"
+                  class="footer-link-2"
+                  target="_blank"
+                  >Upload Storyset Reference</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!--Script Files-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="../static/Bootstrap/bootstrap.min.js"></script>
+    <script src="../static/Bootstrap/jquery.min.js"></script>
+    <script src="../static/project.js"></script>
+    <script src="../static/script.js"></script>
+  </body>
+</html>
