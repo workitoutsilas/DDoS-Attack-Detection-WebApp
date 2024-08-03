@@ -198,7 +198,7 @@ function submitData(event) {
 
   const startTime = Date.now();
 
-  fetch("http://127.0.0.1:5001/predict", {
+  fetch("https://ddos-detection-app.onrender.com/predict", {
     method: "POST",
     body: formData,
   })
