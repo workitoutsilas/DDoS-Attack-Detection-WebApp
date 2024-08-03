@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, redirect, url_for, jsonify, session, g
+from flask import Flask, request, render_template, redirect, url_for, jsonify, session
 import pandas as pd
 import pickle
 import os
@@ -6,16 +6,15 @@ from flask_session import Session
 
 # Initialize the Flask app
 tryThis = Flask(__name__)
-tryThis.config['DEBUG'] = True
-tryThis.secret_key = os.urandom(24)  # Set the secret key for session management
+tryThis.secret_key = os.getenv('SECRET_KEY', 'default-secret-key')  # Use environment variable for secret key
 
 # Configure server-side session storage
 tryThis.config['SESSION_TYPE'] = 'filesystem'
 Session(tryThis)
 
 # Load the trained model and scaler
-model = pickle.load(open('./model/rf_model_manual.pkl', 'rb'))
-scaler = pickle.load(open('./model/scaler.pkl', 'rb'))
+model = pickle.load(open('./Flask/model/rf_model_manual.pkl', 'rb'))
+scaler = pickle.load(open('./Flask/model/scaler.pkl', 'rb'))
 
 @tryThis.route("/")
 def index():
@@ -49,7 +48,7 @@ def predict():
             predictions = model.predict(X_test_scaled)
             prediction_proba = model.predict_proba(X_test_scaled)
 
-           # Calculate average probabilities as percentages for both classes
+            # Calculate average probabilities as percentages for both classes
             avg_prob_malicious = round(prediction_proba[:, 0].mean() * 100, 2)  # Class 0 probabilities
             avg_prob_normal = round(prediction_proba[:, 1].mean() * 100, 2)  # Class 1 probabilities
 
@@ -91,4 +90,5 @@ def pred():
         return redirect(url_for('index', message='No predictions to display'))
 
 if __name__ == '__main__':
-    tryThis.run(debug=True, port=5001)
+    # Remove debug=True for production
+    tryThis.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
