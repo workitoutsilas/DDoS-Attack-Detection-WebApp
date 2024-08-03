@@ -4,17 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="Flask/static/Bootstrap/bootstrap.min.css" />
-    <!-- <link rel="stylesheet" href="../static/Bootstrap/fontawesomeall.min.css" /> -->
-     <link rel="stylesheet" href="{{ url_for('static', filename='project.css') }}/>
-  
-    <link rel="icon" href="Flask/static/Images/icon.png" />
+  rel="stylesheet"
+  href="{{ url_for('static', filename='vendor/fontawesome/all.min.css') }}"
+  integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+
+<link rel="stylesheet" href="{{ url_for('static', filename='Bootstrap/bootstrap.min.css') }}" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='project.css') }}" />
+
+<link rel="icon" href="{{ url_for('static', filename='Images/icon.png') }}" />
+
     <title>DDoS Attack Detection - Machine Learning | IoT</title>
   </head>
   <body>
