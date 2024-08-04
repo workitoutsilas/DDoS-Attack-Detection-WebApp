@@ -10,10 +10,19 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="../static/Bootstrap/bootstrap.min.css" />
-    <!-- <link rel="stylesheet" href="../static/Bootstrap/fontawesomeall.min.css" /> -->
-    <link rel="stylesheet" href="../static/project.css" />
-    <link rel="icon" href="../static/Images/icon.png" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='Bootstrap/bootstrap.min.css') }}"
+    />
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='Bootstrap/fontawesomeall.min.css') }}"> -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='project.css') }}"
+    />
+    <link
+      rel="icon"
+      href="{{ url_for('static', filename='Images/icon.png') }}"
+    />
     <title>DDoS Attack Detection - Machine Learning | IoT</title>
   </head>
   <body>
@@ -112,7 +121,7 @@
                       >
                         <img
                           class="img-fluid"
-                          src="../static/Images/memory-storage-animate (1).svg"
+                          src="{{ url_for('static', filename='Images/memory-storage-animate (1).svg') }}"
                           alt=""
                         />
                       </div>
@@ -567,9 +576,9 @@
     </footer>
     <!--Script Files-->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="../static/Bootstrap/bootstrap.min.js"></script>
-    <script src="../static/Bootstrap/jquery.min.js"></script>
-    <script src="../static/project.js"></script>
-    <script src="../static/script.js"></script>
+    <script src="{{ url_for('static', filename='Bootstrap/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='Bootstrap/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='project.js') }}"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
   </body>
 </html>
