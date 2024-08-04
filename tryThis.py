@@ -14,8 +14,8 @@ tryThis.config['SESSION_TYPE'] = 'filesystem'
 Session(tryThis)
 
 # Load the trained model and scaler
-model = pickle.load(open('Flask/model/rf_model_manual.pkl', 'rb'))
-scaler = pickle.load(open('Flask/model/scaler.pkl', 'rb'))
+model = pickle.load(open('./model/rf_model_manual.pkl', 'rb'))
+scaler = pickle.load(open('./model/scaler.pkl', 'rb'))
 
 @tryThis.route("/")
 def index():
