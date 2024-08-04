@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Predictions</title>
+    <link rel="stylesheet" href="../static/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="../static/style.css" />
+    <link rel="icon" href="../static/Images/icon.png" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Model Predictions</h1>
+      <!-- Display predictions table here -->
+      <div class="table-container table-responsive">
+        {% for table in tables %} {{ table | safe }} {% endfor %}
+      </div>
+      <div
+        class="description container mx-1 d-flex align-items-center justify-content-center"
+      >
+        <p class="p-0 my-1 me-4">0 - Malicious traffic</p>
+        <p class="p-0 my-1 ms-4">1 - Normal traffic</p>
+      </div>
+    </div>
+    <!-- Script Files -->
+    <script src="../static/Bootstrap/jquery.min.js"></script>
+    <script src="../static/Bootstrap/bootstrap.min.js"></script>
+  </body>
+</html>
