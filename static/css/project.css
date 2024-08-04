@@ -26,12 +26,12 @@ html {
 
 @font-face {
   font-family: myFont;
-  src: url("Font/Poppins-Regular.ttf") format("truetype");
+  src: url("../Font/Poppins-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: myFont-Sora;
-  src: url("Font/Sora-VariableFont_wght.ttf") format("truetype");
+  src: url("../Font/Sora-VariableFont_wght.ttf") format("truetype");
 }
 /* Body */
 body {
@@ -89,7 +89,7 @@ header:before {
   top: 0;
   left: 0;
   background-color: var(--first-color);
-  background: url("Images/background-2.jpg") no-repeat center center;
+  background: url("../Images/background-2.jpg") no-repeat center center;
   background-size: cover;
   will-change: transform;
   z-index: -1;
