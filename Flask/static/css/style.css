@@ -1,0 +1,117 @@
+/* styles.css */
+/* Vital Declarations */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* Variables */
+:root {
+  --bs-navbar-toggler-d: 0px;
+  --bs-border-width: 0px;
+  --main-color: #013e40;
+  --first-color: whitesmoke;
+}
+
+/* Poppins font */
+@font-face {
+  font-family: myFont;
+  src: url(Font/Poppins-Regular.ttf);
+}
+
+/* Body */
+
+body {
+  background-color: rgba(231, 228, 228, 0.914);
+  transition: all 0.3s ease;
+  font-family: myFont;
+  color: var(--main-color);
+  overflow-y: scroll;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  margin: auto;
+  background-color: var(--first-color);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.table-responsive {
+  height: 600px;
+  border: 2px solid var(--main-color);
+  overflow: auto;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.table-responsive table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-responsive th,
+.table-responsive td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  min-width: 120px;
+  background-clip: padding-box;
+}
+
+.table-responsive th {
+  background-color: var(--main-color);
+  color: var(--first-color);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.table-responsive th:first-child,
+.table-responsive td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background-color: var(--main-color);
+  color: var(--first-color);
+  min-width: 150px; /* Adjusted the width of the first column */
+}
+
+/* Apply hover effect only to table body rows and cells, excluding first row and first column */
+.table-responsive tbody tr:hover {
+  background-color: var(--main-color);
+  color: var(--first-color);
+}
+
+.table-responsive tbody tr:hover td:not(:first-child) {
+  background-color: var(--main-color);
+  color: var(--first-color);
+}
+
+/* Ensure the first column cells retain original background and text color on hover */
+.table-responsive tbody tr:hover td:first-child {
+  background-color: var(--main-color);
+  color: var(--first-color);
+}
+
+/* Ensure the first row cells retain original background and text color on hover */
+.table-responsive thead tr:hover th {
+  background-color: var(--main-color);
+  color: var(--first-color);
+}
+.description {
+  background-color: var(--main-color);
+  color: var(--first-color);
+}
