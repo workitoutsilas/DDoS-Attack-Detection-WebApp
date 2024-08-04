@@ -198,7 +198,7 @@ function submitData(event) {
 
   const startTime = Date.now();
 
-  fetch("https://ddos-detection-web.onrender.com/predict", {
+  fetch("https://ddos-detection-app.onrender.com/predict", {
     method: "POST",
     body: formData,
   })
@@ -249,7 +249,7 @@ function replaceSpinnerWithCheckIcon() {
   }
 }
 function Results() {
-  window.open("https://ddos-detection-web.onrender.com/pred", "_blank");
+  window.open("https://ddos-detection-app.onrender.com/pred", "_blank");
 }
 
 /** Cursor Animation */
