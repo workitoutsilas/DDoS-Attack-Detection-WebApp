@@ -1,1 +1,1 @@
-web: gunicorn tryThis:tryThis
+web: gunicorn tryThis:app
