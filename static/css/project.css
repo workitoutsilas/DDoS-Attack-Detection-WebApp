@@ -485,6 +485,9 @@ button:disabled {
   }
 }
 @media (max-width: 768px) {
+  body {
+  font-family: myFont;
+  }
   .line-height {
     margin-top: 0px;
     line-height: 1.3em;
