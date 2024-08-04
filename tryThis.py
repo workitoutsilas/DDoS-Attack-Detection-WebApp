@@ -1,4 +1,5 @@
 from flask import Flask, request, render_template, redirect, url_for, jsonify, session
+from flask_cors import CORS
 import pandas as pd
 import pickle
 import os
