@@ -22,7 +22,7 @@ html {
 /* Poppins font */
 @font-face {
   font-family: myFont;
-  src: url(Font/Poppins-Regular.ttf);
+  src: URL(../Font/Poppins-Regular.ttf);
 }
 
 /* Body */
