@@ -1,7 +1,7 @@
 let previousData = null;
 
 document.getElementById("generateChart").addEventListener("click", function () {
-  fetch("http://127.0.0.1:5001/chart-data")
+  fetch("/chart-data")
     .then((response) => response.json())
     .then((result) => {
       console.log("Fetched chart data:", result); // Debugging line
