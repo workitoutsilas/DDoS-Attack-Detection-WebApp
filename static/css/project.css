@@ -37,7 +37,7 @@ html {
 body {
   background-color: rgba(231, 228, 228, 0.914);
   transition: all 0.3s ease;
-  font-family: myFont-Sora;
+  font-family: myFont-Sora,sans-serif;
   color: var(--main-color);
   overflow-y: scroll;
   cursor: none; /*You can change this*/
@@ -134,7 +134,7 @@ header:before {
   margin-top: 20px;
   line-height: 1.2em;
   font-weight: bolder;
-  font-family: myFont;
+  font-family: myFont,sans-serif;
 }
 
 /* Second sub-child of child one*/
@@ -486,7 +486,7 @@ button:disabled {
 }
 @media (max-width: 768px) {
   body {
-  font-family: myFont;
+  font-family: myFont,sans-serif;
   }
   .line-height {
     margin-top: 0px;
