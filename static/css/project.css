@@ -485,8 +485,12 @@ button:disabled {
   }
 }
 @media (max-width: 768px) {
-  body,.line-height {
-  font-family: myFont;
+  body {
+    font-family: myFont;
+    cursor:pointer
+  }
+  .cursor-dot,.cursor-outline{
+    display:none
   }
   .firstThis {
     border: 2px solid transparent;
@@ -494,6 +498,7 @@ button:disabled {
   .line-height {
     margin-top: 0px;
     line-height: 1.3em;
+     font-family: myFont;
   }
   .flx-1 {
     width: 200px;
