@@ -1,5 +1,3 @@
-let previousData = null;
-
 document.getElementById("generateChart").addEventListener("click", function () {
   fetch("https://ddos-detection-app.onrender.com/chart-data")
     .then((response) => response.json())
@@ -12,7 +10,7 @@ document.getElementById("generateChart").addEventListener("click", function () {
         previousData.avg_prob_malicious === result.avg_prob_malicious &&
         previousData.avg_prob_normal === result.avg_prob_normal
       ) {
-        console.log("Chart data is the same, no need to create a new chart.");
+        // console.log("Chart data is the same, no need to create a new chart.");
         return;
       }
 
@@ -28,7 +26,7 @@ document.getElementById("generateChart").addEventListener("click", function () {
       // Check if chartContainer exists
       const chartContainer = document.getElementById("chartContainer");
       if (!chartContainer) {
-        console.error("Error: chartContainer element not found");
+        // console.error("Error: chartContainer element not found");
         return;
       }
 
