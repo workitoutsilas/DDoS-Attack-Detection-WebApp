@@ -485,8 +485,8 @@ button:disabled {
   }
 }
 @media (max-width: 768px) {
-  body {
-  font-family: myFont,sans-serif;
+  body,.line-height {
+  font-family: myFont;
   }
   .firstThis {
     border: 2px solid transparent;
