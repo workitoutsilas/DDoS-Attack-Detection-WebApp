@@ -7,6 +7,7 @@ from flask_session import Session
 
 # Initialize the Flask app
 tryThis = Flask(__name__)
+CORS(tryThis)
 tryThis.secret_key = os.getenv('SECRET_KEY', 'default-secret-key')  # Use environment variable for secret key
 
 # Configure server-side session storage
