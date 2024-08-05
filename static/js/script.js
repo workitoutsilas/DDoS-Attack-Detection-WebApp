@@ -3,7 +3,7 @@ let previousData = null;
 document.getElementById("generateChart").addEventListener("click", function () {
   fetch("https://ddos-detection-app.onrender.com/chart-data")
     .then((response) => response.json())
-    //.then((result) => {
+    .then((result) => {
     //  console.log("Fetched chart data:", result); // Debugging line
 
       // Check if the new data is different from the previous data
