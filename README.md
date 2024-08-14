@@ -1,6 +1,10 @@
 # DDoS ATTACK DETECTION USING ML IN AN IoT ENVIRONMENT
 
-This project implements a web application to classify traffic flows into DDoS and normal traffic patterns. Network administrators can upload traffic capture files (.csv) for predictions. The application leverages a machine learning model to make predictions and display the results.
+This project implements a web application to classify traffic flows into DDoS and normal traffic patterns. 
+The DDoS attacks considered here are ;
+- ['DDoS-ICMP_Flood','DDoS-UDP_Flood','DDoS-TCP_Flood','DDoS-PSHACK_Flood','DDoS-SYN_Flood','DDoS-RSTFINFlood','DDoS-SynonymousIP_Flood','DDoS-ICMP_Fragmentation','DDoS- UDP_Fragmentation','DDoS-ACK_Fragmentation','DDoS-UDP_Fragmentation','DDoS-HTTP_Flood','DDoS-SlowLoris']
+Network administrators can upload traffic capture files (.csv) for predictions. The application leverages a machine learning model (Random Forest)  to make predictions,
+and display the results.
 
 Key Features:
 
@@ -11,7 +15,7 @@ Key Features:
 
 # DDoS-Web-App
 
-This project is a web application designed to monitor and manage potential DDoS attacks. The application includes a dashboard for viewing relevant information and configuring settings.
+This project has been deployed on render. Visit the app here, https://ddos-detection-app.onrender.com.
 
 ## Project Structure
 
