@@ -1,8 +1,24 @@
 # DDoS ATTACK DETECTION USING ML IN AN IoT ENVIRONMENT
 
 This project implements a web application to classify traffic flows into DDoS and normal traffic patterns. 
-The DDoS attacks considered here are ;
-- ['DDoS-ICMP_Flood','DDoS-UDP_Flood','DDoS-TCP_Flood','DDoS-PSHACK_Flood','DDoS-SYN_Flood','DDoS-RSTFINFlood','DDoS-SynonymousIP_Flood','DDoS-ICMP_Fragmentation','DDoS- UDP_Fragmentation','DDoS-ACK_Fragmentation','DDoS-UDP_Fragmentation','DDoS-HTTP_Flood','DDoS-SlowLoris']
+
+# DDoS Attack Types
+
+| Type                   | Description               |
+|------------------------|---------------------------|
+| DDoS-ICMP_Flood        | Description of this type  |
+| DDoS-UDP_Flood         | Description of this type  |
+| DDoS-TCP_Flood         | Description of this type  |
+| DDoS-PSHACK_Flood      | Description of this type  |
+| DDoS-SYN_Flood         | Description of this type  |
+| DDoS-RSTFIN_Flood      | Description of this type  |
+| DDoS-SynonymousIP_Flood| Description of this type  |
+| DDoS-ICMP_Fragmentation| Description of this type  |
+| DDoS-UDP_Fragmentation | Description of this type  |
+| DDoS-ACK_Fragmentation | Description of this type  |
+| DDoS-HTTP_Flood        | Description of this type  |
+| DDoS-SlowLoris         | Description of this type  |
+
 Network administrators can upload traffic capture files (.csv) for predictions. The application leverages a machine learning model (Random Forest)  to make predictions,
 and display the results.
 
@@ -19,8 +35,8 @@ This project has been deployed on render. Visit the app here, https://ddos-detec
 
 ## Project Structure ( Without files for deployment on render )
 
-- `Flask/` - Parent folder which contains the project files.
-- `model/` - Random Forest and Support Vector Classifiers and the scaler used for model training.
+- `for_deployment` - Name of repository / Contains all project files.
+- `model/` - Random Forest and Support Vector Classifiers & scaler used for model training.
 - `static/` - Contains static files such as CSS, JavaScript, and images.
 - `templates/` - Contains HTML templates for the project.
 - `VirtlEnv/` - Python virtual environment.
