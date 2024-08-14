@@ -63,7 +63,7 @@ render(media);
 /** H1 Typerwriting */
 document.addEventListener("DOMContentLoaded", function () {
   const text =
-    "Using Machine Learning To Revolutionize the Detection of DDoS Attacks in IoT Environments.";
+    "Using A Lightweight Machine Learning Model To Revolutionize the Detection of DDoS Attacks in IoT Environments.";
   const typewriterElement = document.getElementById("typewriter");
   let index = 0;
 
@@ -143,7 +143,7 @@ function showModal() {
 /** Input file Max file size */
 function validateFileSize(input) {
   const file = input.files[0];
-  const maxSize = 3 * 1024 * 1024; // 2 MB
+  const maxSize = 3 * 1024 * 1024; // 3 MB
   console.log(file.size);
 
   if (file.size > maxSize) {
