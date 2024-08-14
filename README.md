@@ -21,7 +21,7 @@ Key Features:
 | DDoS-SYN_Flood             | DDoS-ACK_Fragmentation     | DDoS-PSHACK_Flood          |
 
 
-### About Dataset
+### Dataset
 - UNB CICIoT2023 dataset, [Visit here](https://www.unb.ca/cic/datasets/iotdataset-2023.html)
 
 
