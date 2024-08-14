@@ -11,7 +11,7 @@ Key Features:
 - Machine Learning Integration: Integrates a trained model for traffic classification into normal or malicious(DDoS).
 - Visualization: Presents prediction results in an easy-to-understand format (using prediction probabilities).
 
-# DDoS Attack Types
+## DDoS Attack Types
 
 | Type                   | Description               |
 |------------------------|---------------------------|
@@ -28,7 +28,7 @@ Key Features:
 | DDoS-HTTP_Flood        | Description of this type  |
 | DDoS-SlowLoris         | Description of this type  |
 
-# DDoS-Web-App
+## DDoS-Web-App
 
 This project has been deployed on render. Visit the app here, https://ddos-detection-app.onrender.com.
 
