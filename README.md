@@ -54,7 +54,7 @@ Ensure you have the following installed:
 
 1. **Clone the repository**:
 
- - git clone https://github.com/username/DDoS-Biggest-Backup.git
+ - git clone https://github.com/username/for_deployment.git
  - cd Flask
 
 2. **Create and activate a virtual environment**
