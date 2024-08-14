@@ -13,20 +13,12 @@ Key Features:
 
 ## DDoS attacks considered
 
-| Type                   | Description               |
-|------------------------|---------------------------|
-| DDoS-ICMP_Flood        | Description of this type  |
-| DDoS-UDP_Flood         | Description of this type  |
-| DDoS-TCP_Flood         | Description of this type  |
-| DDoS-PSHACK_Flood      | Description of this type  |
-| DDoS-SYN_Flood         | Description of this type  |
-| DDoS-RSTFIN_Flood      | Description of this type  |
-| DDoS-SynonymousIP_Flood| Description of this type  |
-| DDoS-ICMP_Fragmentation| Description of this type  |
-| DDoS-UDP_Fragmentation | Description of this type  |
-| DDoS-ACK_Fragmentation | Description of this type  |
-| DDoS-HTTP_Flood        | Description of this type  |
-| DDoS-SlowLoris         | Description of this type  |
+|                            |                            |                            |
+|----------------------------|----------------------------|----------------------------|
+| DDoS-ICMP_Flood            | DDoS-RSTFIN_Flood          | DDoS-HTTP_Flood            |
+| DDoS-UDP_Flood             | DDoS-SynonymousIP_Flood    | DDoS-SlowLoris             |
+| DDoS-TCP_Flood             | DDoS-PSHACK_Flood          | DDoS-ICMP_Fragmentation    |
+| DDoS-SYN_Flood             | DDoS-ACK_Fragmentation     | DDoS-PSHACK_Flood          |
 
 ## DDoS Web App
 
