@@ -20,6 +20,11 @@ Key Features:
 | DDoS-TCP_Flood             | DDoS-PSHACK_Flood          | DDoS-ICMP_Fragmentation    |
 | DDoS-SYN_Flood             | DDoS-ACK_Fragmentation     | DDoS-PSHACK_Flood          |
 
+
+# Paper Reference - About Dataset
+[Euclides Carlos Pinto Neto et al, "CICIoT2023: A Real-Time Dataset and Benchmark for Large-Scale Attacks in IoT Environment" Journal Name, Year.](https://https://www.mdpi.com/1424-8220/23/13/5941)
+
+
 ## DDoS Web App
 
 This project has been deployed on render. Visit app here, https://ddos-detection-app.onrender.com.
