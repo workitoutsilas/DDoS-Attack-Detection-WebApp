@@ -48,22 +48,20 @@ Ensure you have the following installed:
 
 - Python 3.x
 - pip (Python package installer)
-- virtualenv (for creating a virtual environment)
 
 ### Setup Instructions
 
 1. **Clone the repository**:
 
  - git clone https://github.com/username/for_deployment.git
- - cd Flask
 
 2. **Create and activate a virtual environment**
 
- - python -m venv VirtEnv
- - source VirtEnv/bin/activate
+ - `python -m venv VirtEnv`
+ - `source VirtEnv/bin/activate`
 
 3. **Install dependencies**:
-   pip install -r requirements.txt
+   `pip install -r requirements.txt`
 
 4. **Run the development server**:
-   python3 app.py
+   `python3 tryThis.py`
