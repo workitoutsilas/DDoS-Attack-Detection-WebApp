@@ -1,4 +1,4 @@
-# DDoS ATTACK DETECTION USING ML IN AN IoT ENVIRONMENT
+## DDoS ATTACK DETECTION USING ML IN AN IoT ENVIRONMENT
 
 This project implements a web application to classify traffic flows into DDoS and normal traffic patterns. 
 Network administrators can upload traffic capture files (.csv) for predictions. The application leverages a machine learning model (Random Forest)  to make predictions,
@@ -11,7 +11,7 @@ Key Features:
 - Machine Learning Integration: Integrates a trained model for traffic classification into normal or malicious(DDoS).
 - Visualization: Presents prediction results in an easy-to-understand format (using prediction probabilities).
 
-## DDoS attacks considered
+### DDoS attacks considered
 
 |                            |                            |                            |
 |----------------------------|----------------------------|----------------------------|
@@ -28,11 +28,11 @@ Key Features:
 - Euclides Carlos Pinto Neto et al, ["CICIoT2023: A Real-Time Dataset and Benchmark for Large-Scale Attacks in IoT Environment"](https//:www.mdpi.com/1424-8220/23/13/5941)
 
 
-## DDoS Web App
+### DDoS Web App
 
 This project has been deployed on render. Visit app here, https://ddos-detection-app.onrender.com.
 
-## Project Structure ( Without files for deployment on render )
+### Project Structure ( Without files for deployment on render )
 
 - `for_deployment` - Name of repository / Contains all project files.
 - `model/` - Random Forest and Support Vector Classifiers & scaler used for model training.
@@ -41,7 +41,7 @@ This project has been deployed on render. Visit app here, https://ddos-detection
 - `VirtlEnv/` - Python virtual environment.
 - `tryThis.py` - Flask app - Backend.
 
-## Prerequisites - Run repo on IDE locally 
+### Prerequisites - Run repo on IDE locally 
 
 Ensure you have the following installed:
 
@@ -49,7 +49,7 @@ Ensure you have the following installed:
 - pip (Python package installer)
 - virtualenv (for creating a virtual environment)
 
-## Setup Instructions
+### Setup Instructions
 
 1. **Clone the repository**:
 
