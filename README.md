@@ -1,6 +1,15 @@
 # DDoS ATTACK DETECTION USING ML IN AN IoT ENVIRONMENT
 
 This project implements a web application to classify traffic flows into DDoS and normal traffic patterns. 
+Network administrators can upload traffic capture files (.csv) for predictions. The application leverages a machine learning model (Random Forest)  to make predictions,
+and display the results.
+
+Key Features:
+
+- DDoS Traffic Classification: Identify potential DDoS attacks by analyzing traffic patterns.
+- Web Interface: User-friendly interface for uploading traffic capture files in a specified format.
+- Machine Learning Integration: Integrates a trained model for traffic classification into normal or malicious(DDoS).
+- Visualization: Presents prediction results in an easy-to-understand format (using prediction probabilities).
 
 # DDoS Attack Types
 
@@ -18,16 +27,6 @@ This project implements a web application to classify traffic flows into DDoS an
 | DDoS-ACK_Fragmentation | Description of this type  |
 | DDoS-HTTP_Flood        | Description of this type  |
 | DDoS-SlowLoris         | Description of this type  |
-
-Network administrators can upload traffic capture files (.csv) for predictions. The application leverages a machine learning model (Random Forest)  to make predictions,
-and display the results.
-
-Key Features:
-
-- DDoS Traffic Classification: Identify potential DDoS attacks by analyzing traffic patterns.
-- Web Interface: User-friendly interface for uploading traffic capture files in a specified format.
-- Machine Learning Integration: Integrates a trained model for traffic classification into normal or malicious(DDoS).
-- Visualization: Presents prediction results in an easy-to-understand format (using prediction probabilities).
 
 # DDoS-Web-App
 
