@@ -17,7 +17,7 @@ Key Features:
 
 This project has been deployed on render. Visit the app here, https://ddos-detection-app.onrender.com.
 
-## Project Structure
+## Project Structure ( Without files for deployment on render )
 
 - `Flask/` - Parent folder which contains the project files.
 - `model/` - Random Forest and Support Vector Classifiers and the scaler used for model training.
@@ -26,7 +26,7 @@ This project has been deployed on render. Visit the app here, https://ddos-detec
 - `VirtlEnv/` - Python virtual environment.
 - `tryThis.py` - Flask app - Backend.
 
-## Prerequisites
+## Prerequisites - Run repo on IDE locally 
 
 Ensure you have the following installed:
 
