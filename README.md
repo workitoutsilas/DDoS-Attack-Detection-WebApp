@@ -22,7 +22,7 @@ Key Features:
 
 ## DDoS Web App
 
-This project has been deployed on render. Visit the app here, https://ddos-detection-app.onrender.com.
+This project has been deployed on render. Visit app here, https://ddos-detection-app.onrender.com.
 
 ## Project Structure ( Without files for deployment on render )
 
