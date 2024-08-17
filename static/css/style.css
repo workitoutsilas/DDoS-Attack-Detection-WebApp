@@ -19,17 +19,16 @@ html {
   --first-color: whitesmoke;
 }
 
-/* Poppins font */
 @font-face {
-  font-family: myFont;
-  src: url("../Font/Poppins-Regular.ttf") format("truetype"); 
+  font-family: myFont-Sora;
+  src: url("../Font/Sora-VariableFont_wght.ttf") format("truetype");
 }
-/* Body */
 
+/* Body */
 body {
   background-color: rgba(231, 228, 228, 0.914);
   transition: all 0.3s ease;
-  font-family: myFont;
+  font-family: myFont-Sora,sans-serif;
   color: var(--main-color);
   overflow-y: scroll;
   margin: 0;
