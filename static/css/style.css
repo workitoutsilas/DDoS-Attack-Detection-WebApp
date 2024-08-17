@@ -22,9 +22,8 @@ html {
 /* Poppins font */
 @font-face {
   font-family: myFont;
-  src: URL(../Font/Poppins-Regular.ttf);
+  src: url("../Font/Poppins-Regular.ttf") format("truetype"); 
 }
-
 /* Body */
 
 body {
