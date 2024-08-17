@@ -34,13 +34,13 @@ body {
   color: var(--main-color);
   overflow-y: scroll;
   margin: 0;
-  padding: 20px;
+  padding: 15px;
 }
 
 .container {
   margin: auto;
   background-color: var(--first-color);
-  padding: 20px;
+  padding: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
 }
@@ -64,7 +64,7 @@ h1 {
 
 .table-responsive th,
 .table-responsive td {
-  padding: 12px;
+  padding: 10px;
   border: 1px solid #ddd;
   text-align: left;
   min-width: 120px;
@@ -89,7 +89,6 @@ h1 {
   min-width: 150px; /* Adjusted the width of the first column */
 }
 
-/* Apply hover effect only to table body rows and cells, excluding first row and first column */
 .table-responsive tbody tr:hover {
   background-color: var(--main-color);
   color: var(--first-color);
@@ -100,13 +99,11 @@ h1 {
   color: var(--first-color);
 }
 
-/* Ensure the first column cells retain original background and text color on hover */
 .table-responsive tbody tr:hover td:first-child {
   background-color: var(--main-color);
   color: var(--first-color);
 }
 
-/* Ensure the first row cells retain original background and text color on hover */
 .table-responsive thead tr:hover th {
   background-color: var(--main-color);
   color: var(--first-color);
