@@ -22,10 +22,19 @@
         {% for table in tables %} {{ table | safe }} {% endfor %}
       </div>
       <div
-        class="description container mx-1 d-flex align-items-center justify-content-center"
+        class="description container d-flex align-items-center justify-content-center"
       >
-        <p class="p-0 my-1 me-4">0 - Malicious traffic</p>
-        <p class="p-0 my-1 ms-4">1 - Normal traffic</p>
+        <div class="row">
+          <div class="col-4">
+            <h1>Predictions on the last column</h1>
+          </div>
+          <div class="col-6">
+            <div class="d-flex align-items-center justify-content-center">
+              <p class="p-0 my-1 me-4">0 - Malicious traffic</p>
+              <p class="p-0 my-1 ms-4">1 - Normal traffic</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- Script Files -->
