@@ -107,6 +107,5 @@ h1 {
   color: var(--first-color);
 }
 .description {
-  background-color: var(--main-color);
-  color: var(--first-color);
+  color: var(--main-color);
 }
