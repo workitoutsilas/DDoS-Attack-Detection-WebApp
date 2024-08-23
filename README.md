@@ -7,7 +7,7 @@ The application leverages a supervised machine learning model (Random Forest)  t
 Key Features:
 
 - DDoS Traffic Classification: Identify potential DDoS attacks by analyzing traffic patterns.
-- Web Interface: User-friendly interface for uploading traffic capture files in a specified format.
+- Web Interface: User-friendly interface for uploading traffic files in a specified format.
 - Machine Learning Integration: Integrates a trained model for traffic classification into normal or malicious(DDoS).
 - Visualization: Presents prediction results in an easy-to-understand format (using prediction probabilities).
 
