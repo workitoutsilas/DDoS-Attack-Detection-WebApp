@@ -26,7 +26,7 @@ Key Features:
 
 
 ### Paper Reference
-- Euclides Carlos Pinto Neto et al, ["CICIoT2023: A Real-Time Dataset and Benchmark for Large-Scale Attacks in IoT Environment"](https//:www.mdpi.com/1424-8220/23/13/5941)
+- Euclides Carlos Pinto Neto et al, ["CICIoT2023: A Real-Time Dataset and Benchmark for Large-Scale Attacks in IoT Environment"](https://www.mdpi.com/1424-8220/23/13/5941)
 
 
 ### DDoS Web App
