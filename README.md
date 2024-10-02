@@ -1,19 +1,18 @@
-## DDoS ATTACK DETECTION USING ML IN AN IoT ENVIRONMENT
-<u>Underlined Text</u>
+# DDoS ATTACK DETECTION USING ML IN AN IoT ENVIRONMENT
 
 This project implements a lightweight model integrated into a web application to classify traffic flows into DDoS and normal traffic patterns. 
 Here the intended users, network administrators can upload a traffic  file (.csv) for predictions. 
 The application leverages a supervised machine learning model (Random Forest)  to make predictions, and display the results to the user.
 <u>Underlined Text</u>
 
-### Key Features:
+## Key Features:
 
 - DDoS Traffic Classification: Identify potential DDoS attacks by analyzing traffic patterns.
 - Web Interface: User-friendly interface for uploading traffic files in a specified format.
 - Machine Learning Integration: Integrates a trained model for traffic classification into normal or malicious(DDoS).
 - Visualization: Presents prediction results in an easy-to-understand format (using prediction probabilities).
 
-### DDoS attacks considered
+## DDoS attacks considered
 
 |                            |                            |                            |
 |----------------------------|----------------------------|----------------------------|
@@ -23,19 +22,19 @@ The application leverages a supervised machine learning model (Random Forest)  t
 | DDoS-SYN_Flood             | DDoS-ACK_Fragmentation     | DDoS-PSHACK_Flood          |
 
 
-### Dataset
+## Dataset
 - UNB CICIoT2023 dataset, [Visit here](https://www.unb.ca/cic/datasets/iotdataset-2023.html)
 
 
-### Paper Reference
+## Paper Reference
 - Euclides Carlos Pinto Neto et al, ["CICIoT2023: A Real-Time Dataset and Benchmark for Large-Scale Attacks in IoT Environment"](https://www.mdpi.com/1424-8220/23/13/5941)
 
 
-### DDoS Web App
+## DDoS Web App
 
 This project has been deployed on render. Visit the app here, https://ddos-detection-app.onrender.com.
 
-### Project Structure ( Without files for deployment on render )
+## Project Structure ( Without files for deployment on render )
 
 - `for_deployment` - Name of repository / Contains all project files.
 - `model/` - Random Forest and Support Vector Classifiers & scaler used for model training.
@@ -44,14 +43,13 @@ This project has been deployed on render. Visit the app here, https://ddos-detec
 - `VirtlEnv/` - Python virtual environment.
 - `tryThis.py` - Flask app - Backend.
 
-### Prerequisites - Run repo on IDE locally
+## Prerequisites - Run repo on IDE locally
 
 Ensure you have the following installed:
-
-- Python 3.x
+- Python 3. x
 - pip (Python package installer)
 
-### Setup Instructions
+## Setup Instructions
 
 1. **Clone the repository**:
 
