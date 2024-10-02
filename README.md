@@ -52,10 +52,8 @@ Ensure you have the following installed:
 ## Setup Instructions
 
 1. **Clone the repository**:
-
-   - `git clone https://github.com/username/for_deployment.git`
    ```sh
-   workon sandbox
+   git clone https://github.com/username/for_deployment.git
 
 
 2. **Create and activate a virtual environment**:
