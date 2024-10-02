@@ -4,7 +4,7 @@ This project implements a lightweight model integrated into a web application to
 Here the intended users, network administrators can upload a traffic  file (.csv) for predictions. 
 The application leverages a supervised machine learning model (Random Forest)  to make predictions, and display the results to the user.
 
-Key Features:
+### Key Features:
 
 - DDoS Traffic Classification: Identify potential DDoS attacks by analyzing traffic patterns.
 - Web Interface: User-friendly interface for uploading traffic files in a specified format.
@@ -31,7 +31,7 @@ Key Features:
 
 ### DDoS Web App
 
-This project has been deployed on render. Visit app here, https://ddos-detection-app.onrender.com.
+This project has been deployed on render. Visit the app here, https://ddos-detection-app.onrender.com.
 
 ### Project Structure ( Without files for deployment on render )
 
