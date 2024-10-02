@@ -1,9 +1,9 @@
 # DDoS ATTACK DETECTION USING ML IN AN IoT ENVIRONMENT
 
 This project implements a lightweight model integrated into a web application to classify traffic flows into DDoS and normal traffic patterns. 
-Here the intended users, network administrators can upload a traffic  file (.csv) for predictions. 
-The application leverages a supervised machine learning model (Random Forest)  to make predictions, and display the results to the user.
-<u>Underlined Text</u>
+Here the intended users, (network administrators) can upload a traffic  file (.csv) for predictions. 
+The application leverages a supervised machine learning model (Random Forest)  to make predictions and display the results to the user.
+
 
 ## Key Features:
 
