@@ -56,14 +56,15 @@ Ensure you have the following installed:
    git clone https://github.com/username/for_deployment.git
 
 2. **Create and activate a virtual environment**:
-
-   - `python -m venv VirtEnv`
+   - ```sh
+   `python -m venv VirtEnv`
+   - ```sh
    - `source VirtEnv/bin/activate`
 
-3. **Install dependencies**:
+4. **Install dependencies**:
 
    - `pip install -r requirements.txt`
 
-4. **Run the development server**:
+5. **Run the development server**:
 
    - `python3 tryThis.py`
