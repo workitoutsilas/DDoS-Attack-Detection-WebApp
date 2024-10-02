@@ -59,7 +59,7 @@ Ensure you have the following installed:
    ```sh
    python -m venv VirtEnv
    
-   ```sh
+   # Activate Virtual Environment
    source VirtEnv/bin/activate
 
 4. **Install dependencies**:
