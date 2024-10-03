@@ -43,7 +43,7 @@ This project has been deployed on render. Visit the app here, https://ddos-detec
 - `VirtlEnv/` - Python virtual environment.
 - `tryThis.py` - Flask app - Backend.
 
-## Prerequisites - Run repo on IDE locally
+## Prerequisites - To run repo on IDE locally
 
 Ensure you have the following installed:
 - Python 3. x
