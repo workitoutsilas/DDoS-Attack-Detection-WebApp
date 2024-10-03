@@ -53,7 +53,7 @@ Ensure you have the following installed:
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/username/for_deployment.git
+   git clone https://github.com/username/DDoS-Attack-Detection-WebApp.git
 
 2. **Create and activate a virtual environment**:
    ```sh
