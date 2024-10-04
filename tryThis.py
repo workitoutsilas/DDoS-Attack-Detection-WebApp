@@ -93,3 +93,16 @@ def pred():
 
 if __name__ == '__main__':
     tryThis.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
+
+#### WITHOUT RENDER 
+# Initialize the Flask app
+# tryThis = Flask(__name__)
+# tryThis.config['DEBUG'] = True
+# tryThis.secret_key = os.urandom(24)  # Set the secret key for session management
+
+# Configure server-side session storage
+# tryThis.config['SESSION_TYPE'] = 'filesystem'
+# Session(tryThis)
+
+# if __name__ == '__main__':
+#    tryThis.run(debug=True, port=5001)
